@@ -1,0 +1,269 @@
+.sum {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 47px;
+  margin-top: 44px;
+  margin-right: 48px;
+}
+.twoSum {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 115px;
+}
+.amountDeal {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  margin-right: 90px;
+  width: 279px;
+  height: 81px;
+  left: 47px;
+  top: 506px;
+}
+.monthlyPayment {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  margin-left: 90px;
+  width: 229px;
+  height: 81px;
+  left: 506px;
+  top: 506px;
+  
+  }
+.button{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 8px 16px 12px;
+gap: 10px;
+margin-left: 115px;
+width: 435px;
+height: 68px;
+left: 965px;
+top: 516px;
+background: #FF9514;
+border-radius: 40px;
+border: rgba(240, 255, 255, 0.002);
+  }
+  .disabledButton {
+background: rgba(255, 149, 20, 0.4);
+  }
+.itemName {
+  left: 0%;
+  right: 59.25%;
+  top: 0%;
+  bottom: 83.19%;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #575757
+  }
+  .sumDoc1 {
+width: 379px;
+height: 49px;
+font-family: 'Nekst-Black', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 54px;
+line-height: 90%;
+color: #575757;
+flex: none;
+order: 1;
+flex-grow: 0;
+  }
+  .sumDoc2 {
+    width: 329px;
+    height: 49px;
+    font-family: 'Nekst-Black', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 90%;
+    color: #575757;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+.textSend {
+width: 341px;
+height: 36px;
+font-family: 'Nekst-Black', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 30px;
+line-height: 36px;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+@media(max-width:1024px) {
+  .sum {
+    flex-direction: column;
+    align-items: flex-start;
+  }  
+.button{
+align-items:flex-start;
+padding: 8px 16px 12px;
+gap: 10px;
+margin-left: 0;
+margin-top: 44px;
+width: 345px;
+margin-bottom:120px;
+  }
+.textSend {
+width: 260px;
+padding: 14 52 18 52;
+margin: 0 auto;
+text-align: start;
+    }
+}
+@media screen and (max-width:768px) {
+  .twoSum {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    width: 696px;
+    height: 100px;
+    top: 0;
+    margin: 0 0 44px 0;
+  }
+  .itemName {
+    font-size: 16px;
+    color: #575757;
+    width: 696px;
+    margin-bottom: 8px;
+    }
+    .sumDoc1 {
+      width: 696px;
+      height: 20px;
+      font-size: 54px;
+      line-height: 20%;
+      color: #333333;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+      left: 20px;
+      right: 20px;
+  
+        }
+
+        .sumDoc2 {
+          width: 696px;
+          height: 20px;
+          font-size: 54px;
+          line-height: 20%;
+          color: #333333;
+          flex: none;
+          order: 1;
+          flex-grow: 0;
+        }
+        .button{
+          width: 280px;
+          height: 60px;
+          margin: 32px 20px 0 0;
+            }
+            .btn {
+              align-items: center;
+              width: 280px;
+            }
+          .textSend {
+          width: 200px;
+          padding: 14 52 18 52;
+          margin: 0 auto;
+          text-align: center;
+          align-self: center;
+          font-size: 22px;
+          line-height: 20px;
+              }
+              .amountDeal {
+                height: 81px;
+                margin: 0 0 29px 0;
+                width: 696px;
+              }
+              .monthlyPayment {
+                height: 81px;
+                margin: 0;
+                width: 696px;
+              }
+}
+@media screen and (max-width:320px) {
+  .sum {
+    width: 280px;
+    margin: 32px 20px 0 20px ;
+  } 
+  .twoSum {
+    width: 280px;
+  }
+
+  .itemName {
+    font-size: 14px;
+    color: #575757;
+    width: 280px;
+    }
+    .sumDoc1 {
+      width: 280px;
+      height: 20px;
+      font-size: 22px;
+      line-height: 20%;
+      color: #333333;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+      left: 20px;
+      right: 20px;
+  
+        }
+
+        .sumDoc2 {
+          width: 280px;
+          height: 20px;
+          font-size: 22px;
+          line-height: 20%;
+          color: #333333;
+          flex: none;
+          order: 1;
+          flex-grow: 0;
+        }
+        .button{
+          width: 280px;
+          height: 60px;
+          margin: 32px 20px 0 0;
+            }
+            .btn {
+              align-items: center;
+              width: 280px;
+            }
+          .textSend {
+          width: 200px;
+          padding: 14 52 18 52;
+          margin: 0 auto;
+          text-align: center;
+          align-self: center;
+          font-size: 22px;
+          line-height: 20px;
+              }
+              .amountDeal {
+                height: 41px;
+                margin: 0 0 29px 0;
+                width: 280px;
+              }
+              .monthlyPayment {
+                height: 41px;
+                margin: 0;
+                width: 280px;
+              }
+}

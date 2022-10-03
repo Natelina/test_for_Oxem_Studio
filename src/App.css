@@ -2,37 +2,61 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+width: 1440px;
+height: 800px;
+background: #FFFFFF;
+margin: 0 auto;
+outline: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.calculation {
+  width: 753px;
+  height: 98px;
+  margin-left: 47px;
+  margin-top: 213px;
+  margin-bottom: 44px;
+  font-family: 'Nekst-Black', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 90%;
+  color: #111111;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  @media screen and (max-width:1024px) {
+    .container {
+  width: 1024px;
+  height: 1013px;
   }
-  to {
-    transform: rotate(360deg);
+  .calculation {
+    margin-left: 48px;
+    margin-top: 100px;
+    margin-bottom: 22px;
+
+    }
   }
-}
+
+  @media screen and (max-width:768px) {
+    .container {
+      width: 768px;
+      height: 1013px;
+      margin: 0;
+  }
+  .calculation {
+    width: 700px;
+    margin: 64px 36px 44px 36px 
+    }
+  }
+  @media screen and (max-width:320px) {
+    .container {
+      width: 320px;
+      height: 803px;
+      margin: 0;
+  }
+  .calculation {
+    width: 279px;
+    margin: 44px 20px 32px 21px; 
+    font-size: 34px;
+    }
+  }

@@ -1,0 +1,243 @@
+ .calculator {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 12px;
+  margin-left: 47px;
+  margin-right: 48px;
+  }
+  .itemName {
+    left: 0%;
+    right: 59.25%;
+    top: 0%;
+    bottom: 83.19%;
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #575757;
+    margin-bottom: 12px;
+    }
+  .carCard1 {
+    width: 427px;
+    height: 119px;
+    left: 47px;
+    top: 343px;
+    
+  }
+  .disCard {
+    opacity: 0.4;
+  }
+  .carCard2 {
+width: 427px;
+height: 119px;
+left: 506px;
+top: 343px;
+  }
+  .carCard3 {
+width: 427px;
+height: 119px;
+left: 965px;
+top: 343px;
+  }
+.wrapper{
+  position: relative;
+}
+  .inputPrice {
+  bottom: 5.88%;
+  background: #F3F3F4;
+  border-radius: 16px;
+  height: 68px;
+  width: 427px;
+  
+  border-radius: 16px;
+  border-color: #f3f3f400;
+  font-family: 'Nekst-Black', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 30px;
+line-height: 36px;
+margin-top: 12px;
+color: #575757;
+outline: none;
+  }
+  .colorInp {
+    background: white;
+    border: 2px solid #F3F3F4;
+border-radius: 16px;
+  }
+.rub {
+  position: absolute; 
+  height: 36px;
+  left: 383px;
+  right: 24px;
+  top: 15px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-family: 'Nekst-Black', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: right;
+  color: #575757;
+}
+
+.procent {
+padding: 15px 17px;
+gap: 10px;
+position: absolute;
+width: 35px;
+height: 24px;
+right: 7px;
+top: 18px;
+background: #EBEBEC;
+border-radius: 16px;
+border-color:rgba(127, 255, 212, 0);
+font-family: 'Nekst-Black', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 120%;
+text-align: left;
+color: #575757;
+}
+.proc {
+  position: absolute; 
+  width: 35px;
+  right: 20px;
+  top: 27px;
+  font-family: 'Nekst-Black', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: right;
+  color: #575757;
+  flex: none;
+order: 0;
+flex-grow: 0;
+}
+@media(max-width:1024px) {
+  .calculator {
+  flex-direction: column;
+  /* padding-top: 22px; */
+  width: 928px;
+  margin: 0px 20px;
+    } 
+    .wrapper{
+      width: 928px;
+    }
+    .inputPrice {
+      width: 928px;
+      left: 48px;
+      right: 48px;
+      }
+    .carCard1 {
+      height: 119px;
+      top: 242px;
+      margin-bottom: 32px; 
+      width: 928px;
+      left: 48px;
+      right: 48px;
+    }
+    .carCard2 {
+      height: 119px;
+      top: 393px;
+      margin-bottom: 32px; 
+      width: 928px;
+      left: 48px;
+      right: 48px;
+    }
+    .carCard3 {
+      height: 119px;
+      top: 544px;
+      margin-bottom: 32px; 
+      width: 928px;
+      left: 48px;
+      right: 48px;
+    }
+    .itemName {
+      right: 81.25%;
+      }
+
+      .wrapper{
+        margin-bottom: 32px; 
+        width: 928px;
+        height: 119px;
+      }
+      .rub {
+        left: 884px;
+      }
+}  
+@media screen and (max-width:768px) {
+  .calculator {
+    width: 696px;
+    margin: 0px 20px;
+  }
+
+  .wrapper{
+    width: 696px;
+  }
+  .inputPrice {
+    width: 696px;
+    left: 36px;
+  }
+  .carCard1 {
+    top: 206px;
+    width: 696px;
+  }
+  .carCard2 {
+    top: 357px;
+    width: 696px;
+  }
+  .carCard3 {
+    top: 508px;
+    width: 696px;
+  }
+  .rub {
+    left: 84px;
+  }
+}
+  
+
+@media screen and (max-width:320px) {
+  .calculator {
+    width: 280px;
+    margin: 0px 20px;
+  }
+  .wrapper{
+    width: 280px;
+  }
+  .itemName {
+
+    margin-bottom: 0;
+    }
+  .inputPrice {
+    width: 280px;
+    left: 36px;
+  }
+  .carCard1 {
+    height: 96px;
+    left: 20px;
+    right: 20px;
+    width: 280px;
+  }
+  .carCard2 {
+    height: 96px;
+    left: 20px;
+    right: 20px;
+    width: 280px;
+  }
+  .carCard3 {
+    height: 96px;
+left: 20px;
+right: 20px;
+margin-bottom:0;
+width: 280px;
+  }
+  .rub {
+    left: 84px;
+  }  
+}
